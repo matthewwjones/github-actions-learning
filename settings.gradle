@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+    }
+    plugins {
+        id 'org.springframework.boot' version springVersion
+        id 'io.spring.dependency-management' version springDependencyManagementVersion
+    }
+}
+rootProject.name = 'github-actions-learning'
