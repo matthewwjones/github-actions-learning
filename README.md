@@ -1,3 +1,5 @@
+![Build Status](https://github.com/matthewwjones/github-actions-learning/actions/workflows/run-gradle-build.yml/badge.svg)
+
 # github-actions-learning
 
 A simple repo to support GH Actions learning exercises.
