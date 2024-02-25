@@ -13,7 +13,6 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: self-hosted
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Source
         uses: actions/checkout@v4
@@ -26,4 +25,3 @@ jobs:
         uses: gradle/gradle-build-action@585b565652cefbba63202a7f927df0ff99f34001
       - name: Run Gradle Build
         run: ./gradlew build
-        
